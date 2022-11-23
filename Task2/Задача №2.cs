@@ -11,5 +11,10 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA < numberB)
 {
     Console.WriteLine("Большим числом является : " + numberB);
+    Console.WriteLine("Меньшим числом является : " + numberA);
 }
- Console.WriteLine("Меньшим числом является : " + numberA);
+ else
+ {
+    Console.WriteLine("Большим числом является : " + numberA);
+    Console.WriteLine("Меньшим числом является : " + numberB);
+ }
