@@ -15,11 +15,13 @@ if (numberA > numberB && numberA > numberC)
 {
     Console.WriteLine("Максимальным числом является : " + numberA);
 }
-else 
-{
-    Console.WriteLine("Максимальным числом является : " + numberC);
-}
-if  (numberB > numberC)
+
+if (numberB > numberC && numberB > numberA)
 {
     Console.WriteLine("Максимальным числом является : " + numberB);
+}
+
+if (numberC > numberA && numberC > numberB)
+{
+    Console.WriteLine("Максимальным числом является : " + numberC);
 }
